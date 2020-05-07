@@ -8,4 +8,8 @@
     <ProjectReference Include="..\TwitterAPI\Library.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CognitiveFace\Library.csproj" />
+  </ItemGroup>
+
 </Project>

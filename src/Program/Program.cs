@@ -15,12 +15,12 @@ namespace PII_Herencia
 
             Usuarios usuarios = new Usuarios();
 
-            Pool conductor1 = new Pool("Juan", "Pérez", "1.685.531-3", "Conductor hace 10 años", "Mazda 3", 9.8);
-            Comun conductor2 = new Comun("Emilio", "Urquiza", "1.924.573-1", "Conductor en tiempo libre", "Chevrolet Onix", 9.6);
+            Pool conductor1 = new Pool("Juan", "Pérez", "1.685.531-3", "Conductor hace 10 años", "Mazda 3", 9.8, @"C:\Users\FIT\Desktop\imagen.jpg");
+            Comun conductor2 = new Comun("Emilio", "Urquiza", "1.924.573-1", "Conductor en tiempo libre", "Chevrolet Onix", 9.6, @"C:\Users\FIT\Desktop\imagen.jpg");
 
-            Pasajero pasajero1 = new Pasajero("Leticia", "Giménez", "1.664.529-5", 10.0);
-            Pasajero pasajero2 = new Pasajero("Hernán", "Ibáñez", "3.156.561-7", 9.0);
-            Pasajero pasajero3 = new Pasajero("Walter", "Tridente", "5.021.637-2", 9.67);
+            Pasajero pasajero1 = new Pasajero("Leticia", "Giménez", "1.664.529-5", 10.0, @"C:\Users\FIT\Desktop\imagen.jpg");
+            Pasajero pasajero2 = new Pasajero("Hernán", "Ibáñez", "3.156.561-7", 9.0, @"C:\Users\FIT\Desktop\imagen.jpg");
+            Pasajero pasajero3 = new Pasajero("Walter", "Tridente", "5.021.637-2", 9.67, @"C:\Users\FIT\Desktop\imagen.jpg");
 
             usuarios.AddConductor(conductor1);
             usuarios.AddConductor(conductor2);

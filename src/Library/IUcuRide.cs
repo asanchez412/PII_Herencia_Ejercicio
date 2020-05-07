@@ -11,5 +11,7 @@ namespace PII_Herencia
         string Cedula { get; set; }
 
         double Calificacion { get; set; }
+
+        string Foto { get; set; }
     }
 }

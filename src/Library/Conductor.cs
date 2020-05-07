@@ -16,6 +16,8 @@ namespace PII_Herencia
 
         public double Calificacion { get; set; }
 
+        public string Foto { get; set; }
+
         public virtual string ComunOPool()
         {
             return "Indefinido";
