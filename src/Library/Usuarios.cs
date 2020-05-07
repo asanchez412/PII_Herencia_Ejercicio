@@ -15,16 +15,16 @@ namespace PII_Herencia
         {
             this.conductores.Add(conductor);
 
-            var twitter = new TwitterImage(, , , );
-            Console.WriteLine(twitter.PublishToTwitter("text",@"PathToImage.png"));
+            var twitter = new TwitterImage("g7rkPB5uI2xOqELAhlNrorSU4", "8hOTyS71GrTH9Ool3rXykAJRY5AmgSPiy78b1wYUPcvfIzXeEc", "1396065818-8vnV9HJFW5ArcfFg2zE9hLA68CZYFXO8Cjv6o2E", "675fHmUzeaPajtj3pO64w5xd3p9YI3kco7kSvKhzeEvYe");
+            Console.WriteLine(twitter.PublishToTwitter($"Tenemos un nuevo pasajero! Bienvenid@ {conductor.Nombre} {conductor.Apellido}!",@"C:\Users\FIT\Desktop\Arreglos y combinaciones.png"));
         }
 
         public void AddPasajero (Pasajero pasajero)
         {
             this.pasajeros.Add(pasajero);
 
-            var twitter = new TwitterImage(, , , );
-            Console.WriteLine(twitter.PublishToTwitter("text",@"PathToImage.png"));
+            var twitter = new TwitterImage("g7rkPB5uI2xOqELAhlNrorSU4", "8hOTyS71GrTH9Ool3rXykAJRY5AmgSPiy78b1wYUPcvfIzXeEc", "1396065818-8vnV9HJFW5ArcfFg2zE9hLA68CZYFXO8Cjv6o2E", "675fHmUzeaPajtj3pO64w5xd3p9YI3kco7kSvKhzeEvYe");
+            Console.WriteLine(twitter.PublishToTwitter($"Tenemos un nuevo pasajero! Bienvenid@ {pasajero.Nombre} {pasajero.Apellido}!",@"C:\Users\FIT\Desktop\Arreglos y combinaciones.png"));
 
         }
     }
